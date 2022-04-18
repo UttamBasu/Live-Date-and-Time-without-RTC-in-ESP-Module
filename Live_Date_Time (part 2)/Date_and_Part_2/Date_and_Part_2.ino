@@ -33,5 +33,5 @@ String get_time()
   char time_output[30];
   // See http://www.cplusplus.com/reference/ctime/strftime/ for strftime functions
   strftime(time_output, 30, "%A  %d-%m-%y %T", localtime(&now));
-  return String(time_output); // returns Sat 20-Apr-19 12:31:45
+  return String(time_output); // returns Monday 18-04-2022 18:20:45
 }
